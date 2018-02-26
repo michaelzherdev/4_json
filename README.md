@@ -1,18 +1,26 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Program prints pretty json from transmitted file.
 
 # Quickstart
 
-[TODO]
-
+Script can be run from command line.
 Example of script launch on Linux, Python 3.5:
 
 ```bash
-
 $ python pprint_json.py <path to file>
-# TODO add output example
-
+```
+Output example:
+```bash
+[
+    {
+        "coordinates": [
+            37.58803599964753,
+            55.89020100016689
+        ],
+        "type": "Point"
+    }
+]
 ```
 
 # Project Goals
