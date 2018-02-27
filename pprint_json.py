@@ -4,13 +4,13 @@ from sys import argv
 
 
 def load_data(filepath):
-    with open(os.path.abspath(filepath), encoding="utf8") as f:
-        text = f.read()
+    with open(os.path.abspath(filepath), encoding="utf8") as file:
+        text = file.read()
     return text
 
 
-def pretty_print_json(data):
-    parsed = json.loads(data)
+def pretty_print_json(json_text):
+    parsed = json.loads(json_text)
     print(json.dumps(parsed, indent=4, sort_keys=True))
 
 
